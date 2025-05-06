@@ -1,8 +1,12 @@
 import Sidebar from "./components/Sidebar";
+import SidebarRight from "./components/SidebarRight";
 
 const App = () => {
   return (
-    <Sidebar />
+    <div className="mainContainer">
+      <Sidebar />
+      <SidebarRight />
+    </div>
   )
 }
 

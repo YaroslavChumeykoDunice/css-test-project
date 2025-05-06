@@ -1,0 +1,20 @@
+.pagesContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-right: 10px;
+  gap: 8px;
+}
+
+.pagesItem {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid black;
+  flex-shrink: 0;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
