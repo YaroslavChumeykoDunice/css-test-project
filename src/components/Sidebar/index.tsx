@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className={classNames(styles.sidebar, { [styles.openSidebar]: isOpen })}>
       <div
-        className={classNames(styles.sidebarItem, { [styles.marginLeft]: isOpen })}
+        className={classNames(styles.sidebarItem, styles.marginLeft)}
         onClick={() => setIsOpen(prev => !prev)}
       >
           {isOpen ? 'x' : '='}
